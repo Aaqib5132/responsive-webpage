@@ -1,0 +1,73 @@
+/* *{
+    box-sizing: border-box;
+} */
+.h1{
+    font-weight: bold;
+    color: black;
+    border: 2px solid black;
+    padding: 0px 12px;
+    background-color: aqua;
+    text-align: justify;
+    margin:  -7px -16px auto auto;
+    float: right;
+    
+        
+}
+p{
+    position: relative;
+    clear:right;
+}
+div{
+    background-color: gray;
+    border: 2px solid black;
+    position: relative;
+    width: 95%;
+    margin-top: 18px;
+    
+
+}
+    
+.para{
+    font-size: 125%;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    color: black;
+    font-weight: bold;
+    height: 250px;
+    overflow: auto;
+}
+/* pc verson */
+@media (min-width:900px){
+  .pc  {
+    float: left;
+    width: 33.3%;
+  }
+}
+ /* tab version  */
+@media  (min-width:700px) and (max-width:899px) {
+    .tab {
+        width: 50%;
+        float: right;
+        margin: 0px auto;
+        
+        
+    }
+    .tab2 {
+        float: left;
+        width: 103%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+ @media (max-width:767px) { 
+    .mob {
+        float: left;
+        width: 100%;
+    }
+    
+}
+section{
+
+    background-color: blueviolet;
+}
